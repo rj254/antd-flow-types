@@ -8,5 +8,8 @@
     },
     "keywords": [],
     "author": "Rishabh Jain",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "flow-bin": "^0.56.0"
+    }
 }
