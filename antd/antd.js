@@ -31,6 +31,9 @@ import type { IconProps as IIconProps } from './Icon';
 import { Form } from './Form/Form';
 import type { FormProps as IFormProps } from './Form/Form';
 
+import { Avatar } from './Avatar';
+import type { AvatarProps as IAvatarProps } from './Avatar';
+
 declare module 'antd' {
     declare export { Menu };
     declare type MenuProps = IMenuProps;
@@ -60,4 +63,7 @@ declare module 'antd' {
 
     declare export { Form };
     declare type FormProps = IFormProps;
+
+    declare export { Avatar };
+    declare type AvatarProps = IAvatarProps;
 }
